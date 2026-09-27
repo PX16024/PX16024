@@ -257,7 +257,7 @@ void AC() {
 int main() {
     int choice;
 
-    // do…while loop ensures menu runs at least once
+    // loops the menu until exit is selected
     do {
         cout << "----------------------------------------" << endl
              << "MENU" << endl
@@ -280,7 +280,7 @@ int main() {
             default: cout << "Invalid choice, try again!" << endl;
         }
 
-    } while (choice != 5); // loop until Exit is chosen
+    } while (choice != 5);
 
     return 0;
 }
